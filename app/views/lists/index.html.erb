@@ -1,9 +1,14 @@
-<h1>My lists of movies</h1>
+<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(<%= asset_path 'banner.jpg' %>);">
+  <div class="container">
+    <h1>Save your movies in lists!</h1>
+    <p>Keep your movies following your desires.</p>
+  </div>
+</div>
 
-<%= link_to "New list", new_list_path %>
-
-<ul>
+<div class="container">
   <% @lists.each do |list| %>
-    <li><%= link_to list.name, list_path(list) %></li>
+    <div class="card-category">
+      <h2><%= link_to list.name, list_path(list) %></h2>
+    </div>
   <% end %>
-</ul>
+</div>
