@@ -1,24 +1,13 @@
-# README
+# Watch List
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This web application is my first application using Cloudinary to store images.
 
-Things you may want to cover:
+This application allows to create lists of movies with a comment for each of them.
 
-* Ruby version
+## Home / movies index
 
-* System dependencies
+![Index lists](/app/assets/images/Index_lists.PNG)
 
-* Configuration
+## Show of list with all movies
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+![Show list](/app/assets/images/Show_list.PNG)
